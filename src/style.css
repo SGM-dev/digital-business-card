@@ -7,11 +7,10 @@
 
 body {
   background: #23252c;
-  padding: 2.75em;
 }
 
 .container {
-  width: 317px;
+  width: 350px;
   margin: 0 auto;
   background: #1a1b21;
   border-radius: 10px;
@@ -34,7 +33,7 @@ header {
   color: #fff;
   text-align: center;
   font-family: Inter;
-  font-size: 1.5625rem;
+  font-size: 1.5625 rem;
   font-weight: 700;
   margin-top: 1em;
 }
@@ -103,4 +102,20 @@ section {
   font-size: 0.64rem;
   font-weight: 400;
   line-height: 150%; /* 0.96rem */
+}
+
+footer {
+  display: flex;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+  padding: 1.2em;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.social-links i {
+    text-decoration: none;
+    color: #918E9B;
+    font-size: 25px;
 }
