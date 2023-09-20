@@ -1,6 +1,6 @@
 # Digital Business Card in React
 
-![Digital Business Card Preview](Sam's Business Card.png)
+![Digital Business Card Preview](/Sam's%20Business%20Card.png)
 
 ## Description
 
