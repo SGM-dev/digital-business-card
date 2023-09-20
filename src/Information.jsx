@@ -8,7 +8,7 @@ export default function Information() {
       <img src={profile} alt="Photo of Sam" className="info-img" />
       <h1 className="info-name">Sam George Mathew</h1>
       <h2 className="info-role">Software Engineer</h2>
-      <a href="sgmfs.dev" className="info-website">
+      <a href="https://www.sgmfs.dev" className="info-website">
         sgmfs.dev
       </a>
       <div className="contact-btns">
