@@ -86,3 +86,21 @@ header {
   color: #fff;
   background-color: #5093e2;
 }
+
+section {
+  padding: 1em 2.25em;
+}
+
+.section-title {
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+}
+
+.section-content {
+  color: #dcdcdc;
+  font-size: 0.64rem;
+  font-weight: 400;
+  line-height: 150%; /* 0.96rem */
+}
