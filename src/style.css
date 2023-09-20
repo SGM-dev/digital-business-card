@@ -32,8 +32,7 @@ header {
 .info-name {
   color: #fff;
   text-align: center;
-  font-family: Inter;
-  font-size: 1.5625 rem;
+  font-size: 1.5625rem;
   font-weight: 700;
   margin-top: 1em;
 }
@@ -118,4 +117,61 @@ footer {
   text-decoration: none;
   color: #918e9b;
   font-size: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 95vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: repeat(2, 1fr) 75px;
+    grid-template-areas:
+      "info about"
+      "info interests"
+      "footer footer";
+    gap: 1em;
+  }
+  header {
+    grid-area: info;
+    justify-content: space-between;
+  }
+
+  .info-role {
+    font-size: 1rem;
+  }
+
+  .info-website {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 1em 2em;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-content {
+    font-size: 1rem;
+  }
+
+  .about {
+    grid-area: about;
+  }
+
+  .interests {
+    grid-area: interests;
+  }
+
+  footer {
+    grid-area: footer;
+  }
 }
