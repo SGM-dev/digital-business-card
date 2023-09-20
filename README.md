@@ -1,6 +1,9 @@
 # Digital Business Card in React
+### Desktop Layout
+![Digital Business Card Preview in Desktop](desktop.png)
 
-![Digital Business Card Preview](/Sam's%20Business%20Card.png)
+### Mobile Layout
+![Digital Business Card Preview in Mobile](mobile.png)
 
 ## Description
 

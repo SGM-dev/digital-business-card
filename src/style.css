@@ -132,6 +132,7 @@ footer {
       "footer footer";
     gap: 1em;
   }
+  
   header {
     grid-area: info;
     justify-content: space-between;
